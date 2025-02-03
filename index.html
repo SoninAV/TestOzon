@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Block</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Разметка -->
+    <div class="horizontal-line"></div>
+    <div class="vertical-line"></div>
+    <!-- Разметка -->
+
+    <h1>Progress</h1>
+
+    <div class="progress-container">
+        <div id="progress" class="progress">
+            <div class="progress-inner"></div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <div class="btn-block">
+            <input type="number" id="value" min="0" max="100" value="0">
+            <label for="value">Value</label>
+        </div>
+
+        <div class="btn-block">
+            <label class="switch">
+                <input type="checkbox" id="animate">
+                <span class="slider"></span>
+                <div>Animate</div>
+            </label>
+        </div>
+
+        <div class="btn-block">
+            <label class="switch">
+                <input type="checkbox" id="hide">
+                <span class="slider"></span>
+                <div>Hide</div>
+            </label>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
