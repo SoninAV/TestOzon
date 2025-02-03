@@ -28,7 +28,8 @@ body {
 h1 {
     position: absolute;
     top: 0;
-    left: 30px;
+    left: 16px;
+    font-size: 20px;
 }
 
 .vertical-line {
